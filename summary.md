@@ -216,11 +216,19 @@ RDF（Resource Description Framework）は情報をWeb上で共有し、再利�
 
 RDFの問題点を解決し、HTMLそのものにメタデータを埋め込む形の技術が `microformats` 。<br>
 microformatsはHTMLタグのclass属性に付けることで、`そのタグに書かれた意味を確定させる。` ⇒ プログラムにも解釈可能。<br>
-microformatsは<u>elemental microformatsとcompound microformats</u>に分類することができる。
+microformatsは<u>elemental microformatsとcompound microformats</u>に分類することができる。<br>
+- elemental microformats ⇒ リンク関係で目だデータを表現するフォーマット
+	- rel-license（ライセンス情報）
+- compound microformats ⇒ class属性で階層構造のあるメタデータを表現するフォーマット
+	- hCalendar（イベント情報）
 
 microformatsの問題点と解決するために標準化が進んでいるのが、`RDFa`（RDF-in-attributes）みたい。
+microformatsは必要最低限のコストでWebサービスをWeb API化できる。 → XMLやJSONを使用しなくてもよい。
 
+---
 **第12章 Atom**
+
+Atomとはブログ投稿やニュース記事など、Web上の更新情報を提供するためのフォーマットで、Webフィードのひとつ。<br>
 
 **第13章 Atom Publishing Protocol**
 
