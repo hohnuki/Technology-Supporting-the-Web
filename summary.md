@@ -241,7 +241,28 @@ Atomはタイトル・著者・更新日時などの基本的なメタデータ�
 
 **第13章 Atom Publishing Protocol**
 
+ここの章はスキップ。<br>
+
+---
 **第14章 JSON**
+
+JSONはJavaScript Object Notationの略。プログラミング言語間でもデータを受け渡せる。またWebサービスはブラウザでJavaScriptが実行できるので相性がいい。<br>
+
+JSONのメディアタイプは `application/json` である。拡張子は `.json` 。<br>
+※メディアタイプはファイルの内容を表す２部構成の識別子。**Type**（text, image, applicationなど）と**Subtype**（plain, html, jsonなど）で構成される。⇚ <u>メディアタイプをレスポンスの `Content-Type` ヘッダに指定することでブラウザが適した処理を行う。</u>
+
+JSONで用意しているデータ型は以下の6つ。
+- オブジェクト
+- 配列
+- 文字列
+- 数値
+- ブーリアン（真偽値）
+- null
+
+※日時もリンクも専用の型がないので文字列で対応。
+
+JSONでリソース表現を提供するとJSONP（JSON with Padding）を利用出来ることがある。<br>
+
 
 第5部 Webサービスの設計
 --
